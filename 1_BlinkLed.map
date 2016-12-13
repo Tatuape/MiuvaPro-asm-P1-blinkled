@@ -1,0 +1,46 @@
+MPLINK 4.37, Linker
+Linker Map File - Created Tue Dec 13 12:53:15 2016
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000044
+                   .cinit    romdata   0x000044    program   0x000002
+    .config_01FFF8_MAIN.O    romdata   0x01fff8    program   0x000001
+    .config_01FFFA_MAIN.O    romdata   0x01fffa    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000045      
+                            0x01fff8    0x01fff8      
+                            0x01fffa    0x01fffa      
+            72 out of 131072 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    BUCLE   0x000008    program     static D:\MPLABProyects\Practicas_curso_basico\1_ParpadearLed\main.asm
+                   INICIO   0x000004    program     static D:\MPLABProyects\Practicas_curso_basico\1_ParpadearLed\main.asm
+                 Ret1sOFF   0x000030    program     static D:\MPLABProyects\Practicas_curso_basico\1_ParpadearLed\main.asm
+                  Ret1sON   0x000014    program     static D:\MPLABProyects\Practicas_curso_basico\1_ParpadearLed\main.asm
+             Retardo1sOFF   0x000024    program     static D:\MPLABProyects\Practicas_curso_basico\1_ParpadearLed\main.asm
+              Retardo1sON   0x000008    program     static D:\MPLABProyects\Practicas_curso_basico\1_ParpadearLed\main.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   INICIO   0x000004    program     static D:\MPLABProyects\Practicas_curso_basico\1_ParpadearLed\main.asm
+                    BUCLE   0x000008    program     static D:\MPLABProyects\Practicas_curso_basico\1_ParpadearLed\main.asm
+              Retardo1sON   0x000008    program     static D:\MPLABProyects\Practicas_curso_basico\1_ParpadearLed\main.asm
+                  Ret1sON   0x000014    program     static D:\MPLABProyects\Practicas_curso_basico\1_ParpadearLed\main.asm
+             Retardo1sOFF   0x000024    program     static D:\MPLABProyects\Practicas_curso_basico\1_ParpadearLed\main.asm
+                 Ret1sOFF   0x000030    program     static D:\MPLABProyects\Practicas_curso_basico\1_ParpadearLed\main.asm
+
+
